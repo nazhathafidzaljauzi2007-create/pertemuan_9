@@ -4,7 +4,7 @@ using namespace std;
 class mahasiswa
 {
 private:
-    string nama;
+    string nama; 
 public:
     friend void setNama(mahasiswa &a, string);
 };
